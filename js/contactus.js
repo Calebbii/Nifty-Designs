@@ -11,5 +11,9 @@ $(document).ready(function (){
         if($("input#name").val() && $("input#email").val()) {
             alert(' Hi ' + name + 'We have received your message. Thank you for reaching out to us.')
         }
+        else {
+            alert('Please fill in the form')
+        }
+        event.preventDefault();
     })
 })
