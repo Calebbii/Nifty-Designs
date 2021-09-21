@@ -57,6 +57,10 @@
   display: none;
 }
 
+.fas fa-bars{
+  height: 2rem;
+}
+
 /*media queries*/
 
 @media(max-width:991px){
