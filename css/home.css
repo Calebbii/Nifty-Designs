@@ -37,12 +37,49 @@
 
 .header .logo{
   padding-left: 5rem;
+  color: rgb(187, 143, 86);
+  justify-content: space-evenly;
 }
 
- .header .navbar{
+ .header .navbar a{
   margin: 0;
   font-size: 0.9rem;
-  color:ghostwhite;
-  justify-content: space-between;
+  color: rgb(187, 143, 86);
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 3rem;
+}  
 
+#menu-btn{
+  font-size: 3rem;
+  color:rgb(187, 143, 86) ;
+  cursor: pointer;
+  display: none;
+}
+
+/*media queries*/
+
+@media(max-width:991px){
+ 
+    html{
+      font-size: 55%;
+    }
+
+    .header{
+      padding: 2rem;
+    }
+}
+
+@media(max-width:768px){
+ 
+  #menu-btn{
+    display: initial;
+  }
+}
+
+@media(max-width:450px){
+ 
+  html{
+    font-size: 50%;
+  }
 }
