@@ -30,8 +30,8 @@
   z-index: 1000;
   right: 0;
   left: 0;
-  background:ghostwhite;
-  box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+  background: #FFFAFA;
+  box-shadow: 0.2rem 0.2rem ghostwhite;
   padding: 2rem 9%;
 }
 
@@ -39,8 +39,10 @@
   padding-left: 5rem;
 }
 
-.header .navbar{
+ .header .navbar{
   margin: 0;
-  font-size: 1.7rem;
-  color: #443;
+  font-size: 0.9rem;
+  color:ghostwhite;
+  justify-content: space-between;
+
 }
