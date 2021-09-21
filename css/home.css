@@ -5,22 +5,34 @@
     --border-radius:95% 4% 5%/4% 94% 3% 95%;
     --border-radius-hover:95% 4% 5%/4% 94% 3% 95%;
     --border-radius:.2rem solid var(--main-color);
-
+}
 
 *{
-    font-family: 'Poppins', sans-serif;
-    margin: 0 ;
-    padding: 0;
-    outline: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    border: none;
-    transition: all .2s linear;
-}
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  transition: all .2s linear;
+  }
+
 
 .html{
   font-size:70% ;
   overflow-x: hidden;
   scroll-padding-top:7rem ;
   scroll-behavior: smooth;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  
+
+
+
 }
