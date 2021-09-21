@@ -50,15 +50,24 @@
   padding-right: 3rem;
 }  
 
-#menu-btn{
-  font-size: 3rem;
-  color:rgb(187, 143, 86) ;
-  cursor: pointer;
-  display: none;
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.fas fa-bars{
-  height: 2rem;
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /*media queries*/
