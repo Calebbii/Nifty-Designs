@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,300;1,200&display=swap');
 
 *{
@@ -219,14 +221,47 @@ h1 {
 h2 {
     text-align: center;
     padding: 5%;
+    font-size: 50px;
+    color: brown;
+}
+.welcome h1{
+    font-family: 'Poiret One', cursive;
 }
 .whoAreWe {
     text-align: center;
     margin-top: 2cm;
+    width: 25cm;
+    margin-left: 4cm;
+}
+.whoAreWe h3 {
+    font-size: 40px;
+    color: brown;
+    margin-left: 2cm;
+}
+.whoAreWe p {
+    font-family: 'Carattere', cursive;
+    font-size: 35px;
+    margin-top: 1cm;
 }
 .commitment {
     text-align: center;
 }
+.commitment h3 {
+    font-size: 40px;
+    margin-top: 2cm;
+    color: brown;
+}
 .contentHide, .growthHide, .recHide {
     display: none;
+}
+.faq {
+  margin-left: 3cm;
+  margin-right: 1cm;
+}
+.faq h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3cm;
+  margin-bottom: 0.5cm;
+  color: brown;
 }
