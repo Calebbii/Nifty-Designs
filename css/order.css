@@ -32,3 +32,8 @@ card-img-top {
     object-fit: cover;
     opacity:85% ;
 }
+.body{
+    background-color: rgba(24, 36, 28, 0.521);
+    color: rgb(252, 252, 252);
+    text-size-adjust: 0.7cm;
+}
