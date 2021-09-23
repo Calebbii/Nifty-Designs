@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contactus.css">
+
 
     <title>Contact Us</title>
 </head>
@@ -15,7 +16,7 @@
   <header class="header">
     <div class="topnav">
 
-      <a href="#home" class="active">.</a>
+      <a href="home.html" class="active"></a>
 
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
@@ -47,32 +48,53 @@
         <div class="contact-overlay">
             <br><br>
             <h1 class="text-center text-black b-text">CONTACT US</h1><br>
-            <h4 class="text-center text-black b-text">We value your feedback.</h4><br>
+            <h1 class="text-center text-black b-text">CONTACT US</h1><br>
+            <h4 class="text-center text-black b-text">We value your feedback.</h4>
+            <br><br>
             <div class="col-md-12 input">
                 <form id="contact" >
                     <div class="row">
                         <div class="col-md-2 form"></div>
                          <input type="text" class="col-md-4 form-contact name" id="name" name="name" 
-                         placeholder="Name.." required> <br><br>
+                         placeholder="Name.." required> 
+                         <br><br>
                          <input type="text" class="col-md-4 form-contact email" id="email" name="email" 
                           placeholder="Email.." required> 
-                         <div class="col-md-2"></div>
-                    </div>
-                    <br>
-                    <div class="row input">
-                        <div class="col-md-2"></div>
-                        <textarea name="message" id="message" rows="12" class="form-control col-mod-8 text"
-                        placeholder="Your Message..."></textarea>
                         <div class="col-md-2"></div>
                     </div>
-                    <br>
-                    <button class="btn btn-success mx-auto d-block submit" id="ok" type="submit">Submit</button>
+                   <br>
+                    <div>
+                      <textarea id="message" placeholder="Your Message..." rows="6"></textarea>
+                        <!--<textarea name="message" id="message" rows="10" class="form-control col-mod-8 text"
+                        placeholder="Your Message..."></textarea>-->
+                    </div>
                     <br><br>
+                    <button class="btn btn-success mx-auto d-block submit" id="ok" type="submit">Submit</button>
+                    <br>
                 </form>
+                
+            </div>
+        </div>
+    </div> 
+  </div>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="data:image/png;base64,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" height="50px" width="50px">
+            </div>
+            <div class="col">
+                <img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_linkedin_button_blue.png" alt="linked in icon" height="50px" width="50px">
+            </div>
+            <div class="col">
+                <img src="https://www.pngitem.com/pimgs/m/82-821814_transparent-ig-png-blue-instagram-icon-png-png.png" height="50px" width="50px">
+            </div>
+            <div class="col">
+                <img src="https://www.nicepng.com/png/detail/825-8255248_follow-us-on-facebook-light-blue-facebook-icon.png" height="50px" width="50px">
             </div>
         </div>
     </div>
-    
+</footer>
 </body>
 <script src="js/contactus.js"></script>
 </html>
