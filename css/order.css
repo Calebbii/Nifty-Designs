@@ -15,3 +15,9 @@ body{
     color: whitesmoke;
     text-size-adjust: 0.9cm;
 }
+nav a:hover, footer a:hover{
+    color: rgb(43, 241, 119);
+
+
+}
+.header{
