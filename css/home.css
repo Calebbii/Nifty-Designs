@@ -53,7 +53,7 @@
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:#FFFAFA;
   position: relative;
 }
 
@@ -64,7 +64,7 @@
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -73,9 +73,9 @@
 
 
 .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
+  background: #FFFAFA;
+  display: flex;
+  position: sticky;
   right: 0;
   top: 0;
 }
@@ -88,8 +88,7 @@
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 /* Slideshow container */
@@ -163,9 +162,7 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+
 
 /* Fading animation */
 .fade {
