@@ -26,3 +26,9 @@ nav a:hover, footer a:hover{
     image-orientation: initial;
     background-size: cover;
 }
+card-img-top {
+    width: 123%;
+    height: 28vw;
+    object-fit: cover;
+    opacity:85% ;
+}
