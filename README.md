@@ -28,4 +28,4 @@ Email :
 EmA
 ### License
 [MIT License](https://github.com/Calebbii/Nifty-Designs/blob/master/LICENSE)
-Copyright (c) 2021
+Copyright (c) 2021 
