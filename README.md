@@ -4,6 +4,7 @@
 This website showcases designers work and what their brands have produced.
 ## Live Link
 https://calebbii.github.io/Nifty-Designs/home.html
+
 ## Setup/Installation Requirements
 * Clone the repo
 * Opening the project on a text editor
