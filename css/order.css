@@ -106,3 +106,25 @@ card-img-top {
     -webkit-transform: translate3d(-100%,0,0);
     transform: translate3d(-100%,0,0);
   }
+  .hovereffect:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  .hovereffect a, .hovereffect p{
+    color: cornsilk;
+    background: linear-gradient(90deg, rgba(41, 212, 204, 0.945) 0%, rgba(21, 130, 255, 0.829)50%, rgb(9, 6, 204) 100%);
+    opacity: 30%;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+  
+  .hovereffect:hover a, .hovereffect:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
