@@ -209,3 +209,10 @@
   }
 
 }
+
+.slogan h6 {
+  margin: 2cm;
+  justify-content: space-evenly;
+  text-align: center;
+  color: brown;
+}
