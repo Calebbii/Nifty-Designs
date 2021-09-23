@@ -22,7 +22,7 @@ https://calebbii.github.io/Nifty-Designs/home.html
 * BOOTSTRAP
 * JAVASCRIPT
 ## Support and contact details
-Email : biicaleb316@gmail.com
+*Email : biicaleb316@gmail.com
 Email :
 Email :
 EmAIL
