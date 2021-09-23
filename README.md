@@ -24,4 +24,4 @@ https://calebbii.github.io/Nifty-Designs/home.html
 Email : biicaleb316@gmail.com
 ### License
 [MIT License](https://github.com/Calebbii/Nifty-Designs/blob/master/LICENSE)
-Copyright (c) 2021 Calebbii
+Copyright (c) 2021
