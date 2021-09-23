@@ -216,3 +216,8 @@
   text-align: center;
   color: brown;
 }
+footer {
+  width: 20cm;
+  margin-left: 8cm;
+  padding: 5%;
+}

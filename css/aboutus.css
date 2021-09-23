@@ -264,3 +264,8 @@ h2 {
   margin-bottom: 0.5cm;
   color: brown;
 }
+footer {
+  width: 20cm;
+  margin-left: 8cm;
+  padding: 5%;
+}
