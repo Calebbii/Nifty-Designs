@@ -6,9 +6,9 @@ Nifty Designs is an application that seeks to revolutionize the fashion industry
 https://calebbii.github.io/Nifty-Designs/home.html
 
 ## Setup/Installation Requirements
-* Clone the repo
-* Opening the project on a text editor
-* Open the project on a live server
+* Clone the repo.
+* Opening the project on a text editor.
+* Open the project on a live server.
 ## Features
 * Built with HTML, CSS, Bootstrap and JavaScript
 * Easy to run
