@@ -37,3 +37,8 @@ card-img-top {
     color: rgb(252, 252, 252);
     text-size-adjust: 0.7cm;
 }
+.subm{
+    color: rgb(0, 0, 0);
+    background: transparent;
+    background: linear-gradient(90deg, rgba(41, 212, 204, 0.945) 0%, rgba(21, 130, 255, 0.829)50%, rgb(9, 6, 204) 100%);
+}
