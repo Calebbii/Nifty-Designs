@@ -63,4 +63,23 @@ card-img-top {
     left: 0;
     padding: 50px 20px;
   }
+  .hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 40px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .hovereffect:hover img {
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
   
