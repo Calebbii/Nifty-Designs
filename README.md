@@ -1,7 +1,7 @@
 # Nifty Designs
 
 ## Description
-This website showcases designers work and what their brands have produced.
+Nifty Designs is an application that seeks to revolutionize the fashion industry in Kenya by providing designers with a platform to showcase and sell their products and brand inventions.
 ## Live Link
 https://calebbii.github.io/Nifty-Designs/home.html
 
