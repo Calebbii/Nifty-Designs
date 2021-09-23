@@ -82,4 +82,27 @@ card-img-top {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+    background: linear-gradient(90deg, rgba(177, 233, 22, 0.945) 0%, rgb(49, 255, 8) 50%, rgb(39, 250, 197)100%);
+  }
+  .hovereffect h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: rgb(88, 68, 175);
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
